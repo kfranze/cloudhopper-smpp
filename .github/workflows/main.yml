@@ -1,0 +1,7 @@
+- name: Setup Ruby environment with ruby-build
+  uses: clupprich/ruby-build-action@v1.3.0
+  with:
+    # Ruby version
+    ruby-version: # default is 2.6.5
+    # Flag if the Ruby installation is cached
+    cache-available: # default is false
